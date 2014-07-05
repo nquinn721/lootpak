@@ -35,7 +35,7 @@
 			<h3>Redeem your LootPak code here!<h3>
 			<p>
 			<div class="input-group">
-			  	<input type="text" class="form-control" placeholder="Insert your code">
+			  	<input type="text" class="form-control code-entry" placeholder="Insert your code">
 			  	<span class="input-group-addon btn-primary redeem">Redeem</span>
 			</div>
 			</p>

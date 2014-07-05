@@ -14,12 +14,19 @@ function splash(cl){
 }
 
 function getBlacklisted () {
-	splash();
 	$('.code-table').html('');
+
+	if($.trim($('.code-entry').val()) === ''){
+		alert("Please type in a code!");
+		return;
+	}
+
 	$.ajax({
 		url : 'lib/getblacklisted.php',
 		success : function (data) {
 			data = $.parseJSON(data);
+			splash();
+			
 			for(var i = 0; i < data.length; i++){
 				var c = code_container()
 					c.find('.code').text(data[i].code);
