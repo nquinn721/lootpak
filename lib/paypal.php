@@ -68,8 +68,8 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, '{
   "intent":"sale",
   "redirect_urls":{
-    "return_url":"http://example.com/your_redirect_url/",
-    "cancel_url":"http://example.com/your_cancel_url/"
+    "return_url":"http://lootpak.com/p/paypalredirectsuccess.php",
+    "cancel_url":"http://lootpak.com/p/paypalredirectcancel.php"
   },
   "payer":{
     "payment_method":"paypal"

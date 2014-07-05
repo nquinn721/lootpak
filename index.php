@@ -23,7 +23,6 @@
 	    	</div>
 	    	<div class="collapse navbar-collapse" id="main-nav">
 	    		<ul class="nav navbar-nav navbar-right">
-	    			<li><a href="#" class="blacklisted">Blacklisted</a></li>
 	    			<li><a href="#">Terms</a></li>
 	    			<li><a href="#">FAQ</a></li>
 	    			<li><a href="#">Support</a></li>
@@ -33,43 +32,36 @@
 		
 
 		<div class="jumbotron">
-			<h3>Please insert your code here to redeem!<h3>
+			<h3>Redeem your LootPak code here!<h3>
 			<p>
 			<div class="input-group">
 			  	<input type="text" class="form-control" placeholder="Insert your code">
-			  	<span class="input-group-addon btn-primary">Redeem</span>
+			  	<span class="input-group-addon btn-primary redeem">Redeem</span>
 			</div>
 			</p>
 		</div>
 		<div class="splash none">
 			<div class="blacklisted-list">
 				<div class="col-sm-6">
-					<div class="panel panel-default">
-						<div class="panel-heading">Codes</div>
-						<div class="panel-body">
-					   		<table class="table table-striped code-table">
-							 	<tr class="code-container none">
-							 		<td>
-							 			<i class="fa fa-user"></i>
-							 		</td>
-							 		<td class="code">
-							 				23JK34L12K4J1I
-							 		</td>
-							 		<td class="red">
-							 			Blacklisted
-							 		</td>
-							 	</tr>
-							</table>			
-						</div>
-					</div>
+					<div><h3>Codes</h3></div>
+			   		<table class="table table-striped code-table">
+					 	<tr class="code-container none">
+					 		<td>
+					 			<i class="fa fa-user"></i>
+					 		</td>
+					 		<td class="code">
+					 				23JK34L12K4J1I
+					 		</td>
+					 		<td class="red">
+					 			Blacklisted
+					 		</td>
+					 	</tr>
+					</table>			
+			
 				</div>
 				<div class="col-sm-6">
-					<div class="panel panel-default">
-						<div class="panel-heading">Purchase</div>
-						<div class="panel-body">
-					   		<img src="public/img/paypal.png" class="paypal-img" alt="">
-						</div>
-					</div>
+					<div><h3>Purchase</h3></div>
+					<img src="public/img/paypal.png" class="paypal-img" alt="">
 				</div>
 			</div>	
 		</div>

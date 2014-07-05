@@ -5,10 +5,12 @@ var cc = $('.code-container').clone().removeClass('none'),
 
 
 // Build event handlers
-$('.blacklisted').on('click', getBlacklisted);
+$('.redeem').on('click', getBlacklisted);
+$('.splash').on('click', function(){$(this).hide()})
+.children().on('click', function(){return false;})
 
 function splash(cl){
-	$('.' + (cl ? cl : 'splash') ).show().height($(document).height()).on('click', function(){$(this).hide()});
+	$('.' + (cl ? cl : 'splash') ).show().height($(document).height());
 }
 
 function getBlacklisted () {
